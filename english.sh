@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat ~/friends/* ~/himym/* |
+cat ./friends/* |
 grep -v '^[0-9]' |
 sed 's/[?!.|]/ /g' |
 sed 's/ * / /g' |
